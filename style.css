@@ -37,7 +37,7 @@ span{
 }
 .header-link{
     font-weight: 700;
-    size: 24px;
+    font-size: 24px;
     color: #3A2E2E;
 }
 .hero{
@@ -80,14 +80,19 @@ span{
 }
 .services{
     padding-top:24px ;
-    padding-top:52px ;
+    padding-bottom:52px ;
 }
 .services-title{
     font-size: 48px;
     font-weight: 600;
     text-align: center;
     color:#3A2E2E;
-    margin-bottom: 18px;
+    margin-bottom: 25px;
+
+}
+.services-subtitle{
+    padding-bottom: 25px;
+    font-weight: 400;
 }
 .services-title::after{
     content: '';
@@ -128,10 +133,12 @@ span{
     font-size: 48px;
     color: #6278B4;
     font-weight: 900;
+    padding-bottom: 28px;
 }
 .question-text{
     max-width: 294px;
     font-weight: 500;
+    
 }
 
 .specialists{
@@ -165,7 +172,7 @@ span{
     display:flex;
     justify-content: space-between;
 }
-.specialists-item::after{
+.specialists-name::before{
     content: '';
     display: flex;
     width: 224px;
@@ -177,6 +184,7 @@ span{
 .specialists-name{
     font-size: 32px;
     text-align: center;
+    font-weight: 600;
 }
 
 
@@ -193,7 +201,7 @@ span{
 
 .footer-title{
     margin: 18px  auto 47px ;
-    border-top: 4px solid #6278B4 ;
+    border-top: 2px solid #6278B4 ;
     color: #3A2E2E;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -207,12 +215,14 @@ span{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: #FFFFFF;
 }
 .footer-link{
     display: flex;
     flex-direction: row;
     gap: 22px;
     align-items: center;
+    color: #FFFFFF;
 }
 .footer-item{
     display: flex;
